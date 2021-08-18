@@ -51,11 +51,7 @@
     "src/**/*": [
       "yarn eslint:fix",
       "yarn test --findRelatedTests --bail"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    ],
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   }
 }
