@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.15.0",
+    "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -51,7 +52,6 @@
     "src/**/*": [
       "yarn eslint:fix",
       "yarn test --findRelatedTests --bail"
-    ],
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    ]
   }
 }
